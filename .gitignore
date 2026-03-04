@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.vscode/
+.DS_Store
+
+# No private/raw data
+data/
+*.csv
+
+# No trained models/artifacts
+artifacts/
+*.joblib
+*.pkl
